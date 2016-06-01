@@ -29,7 +29,7 @@ or
 ./dynlib ./libbar.so
 ```
 
-*NOTE:* This is Linux; on other platforms the name of the libraries may vary.
+**NOTE:** This is Linux; on other platforms the name of the libraries may vary.
 
 ## License
 
