@@ -19,7 +19,7 @@ This builds a main executable `dynlib` as well as two example libraries: `foo` a
 
 ## Run
 
-The main executable expect its first argument to be library to load:
+The main executable expect its first argument to be the library to load:
 
 ```
 ./dynlib ./libfoo.so
