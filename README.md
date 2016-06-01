@@ -1,6 +1,7 @@
 # dynlib-c
 
 An example showing how to load dynamic libraries at runtime using C.
+
 This allows dynamic code execution, useful when adding module/plugin support to an app.
 
 ## Build
