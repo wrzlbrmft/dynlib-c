@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 void func() {
-	printf("Hi, this is bar!");
+	printf("Hi, this is bar!\n");
 }

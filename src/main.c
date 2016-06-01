@@ -27,7 +27,9 @@ int main(int argc, char *argv[]) {
 
 	// call func()
 	printf("calling func()\n");
+	printf("---------------------------\n");
 	func_ptr();
+	printf("---------------------------\n");
 
 	return 0;
 }
