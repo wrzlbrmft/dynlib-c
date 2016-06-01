@@ -17,5 +17,17 @@ int main(int argc, char *argv[]) {
 		return 1;
 	}
 
+	// get pointer to func() from loaded lib or exit on error
+	printf("loading func()\n");
+	void (*func_ptr)() = dlsym(lib_ptr, "func");
+	if (!func_ptr) {
+		fprintf(stderr, "error loading func() (%s)\n", dlerror());
+		return 1;
+	}
+
+	// call func()
+	printf("calling func()\n");
+	func_ptr();
+
 	return 0;
 }
